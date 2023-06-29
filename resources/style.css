@@ -8,7 +8,15 @@
     text-align: center;
 }
 /*Header*/
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
 
+header img {
+    margin-left: 10 px;
+    height: 50px;
+}
 /*Mission*/
 
 /*Featured Tea*/
