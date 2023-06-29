@@ -17,8 +17,19 @@ header img {
     margin-left: 10 px;
     height: 50px;
 }
-/*Mission*/
 
+header ul {
+    text-decoration: underline;
+    display: inline-block;
+}
+/*Mission*/
+.mission {
+    background-color: black;
+    background-image: url(../resources/images/img-mission-background.jpg);
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 /*Featured Tea*/
 
 /*Location*/
