@@ -17,6 +17,7 @@ header img {
     margin-left: 10 px;
     height: 50px;
 }
+<<<<<<< HEAD
 
 header ul {
     text-decoration: underline;
@@ -27,7 +28,21 @@ header ul {
     height: 700px;
     width: 1200px;
 }
+=======
+>>>>>>> mission_background
 
+header ul {
+    text-decoration: underline;
+    display: inline-block;
+}
+/*Mission*/
+.mission {
+    background-color: black;
+    background-image: url(../resources/images/img-mission-background.jpg);
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 /*Featured Tea*/
 
 /*Location*/
