@@ -39,15 +39,21 @@ header ul li {
 /*Mission*/
 .mission {
     margin-top: 70px;
-    height: 700px;
-    width: 1200px;
+    padding-top: 300px;
+    min-height: 400px;
+    min-width: 1200px;
     background-color: black;
     background-image: url(../resources/images/img-mission-background.jpg);
     background-repeat: no-repeat;
-
-    padding: 200px 0px;
+    background-position: center;
+}
+.mission h2 {
+    margin-bottom: 0px;
 }
 
+.mission h4 {
+    margin-top: 0px;
+}
 .mission h2,
 .mission h4 {
     background-color: black;
@@ -65,9 +71,6 @@ header ul li {
     justify-content: center;
 }
 
-.teas div {
-    align-items: center;
-}
 
 .teas img {
     width: 300px;
@@ -80,7 +83,31 @@ header ul li {
 }
 
 /*Location*/
+.location{
+    min-height: 500px;
+    background-color: black;
+    background-image: url(../resources/images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 4em 3em;
+}
+
+.locations {
+    background-color: black;
+    opacity: 1;
+    min-width: 300px;
+    min-height: 250px;
+    max-height: 350px;
+    justify-content: space-around;
+}
 
 /*Footer*/
-
+.footer {
+    min-height: 200px;
+}
 /*CopyRight*/
+.copyright {
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+}
