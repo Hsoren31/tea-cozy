@@ -11,34 +11,38 @@
 header {
     height: 69px;
     border-bottom: 1px solid seashell;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: auto;
 }
 
 header img {
     margin-left: 10 px;
+    margin-top: 5px;
     height: 50px;
 }
-<<<<<<< HEAD
 
 header ul {
-    text-decoration: underline;
-    display: inline-block;
+    margin-left: auto;
 }
-/*Mission*/
-.mission img {
-    height: 700px;
-    width: 1200px;
-}
-=======
->>>>>>> mission_background
 
-header ul {
-    text-decoration: underline;
+header ul li {
     display: inline-block;
+    
+    text-decoration: underline;
+    list-style: none;
+
 }
 /*Mission*/
 .mission {
+    margin-top: 70px;
+    height: 700px;
+    width: 1200px;
     background-color: black;
     background-image: url(../resources/images/img-mission-background.jpg);
+    background-repeat: no-repeat;
 
     padding-top: 200px;
     padding-bottom: 200px;
