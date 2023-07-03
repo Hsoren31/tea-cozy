@@ -1,11 +1,12 @@
-/*Universal*/
-* {
+/*Body*/
+body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    margin: 5px 10px;
 }
 /*Header*/
 header {
@@ -15,25 +16,25 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    overflow: auto;
+    background-color: black;
 }
 
 header img {
-    margin-left: 10 px;
-    margin-top: 5px;
     height: 50px;
+    padding-top: 5px;
+
 }
 
 header ul {
+    display: flex;
+    gap: 1em;
     margin-left: auto;
 }
 
 header ul li {
-    display: inline-block;
-    
+  
     text-decoration: underline;
     list-style: none;
-
 }
 /*Mission*/
 .mission {
@@ -44,10 +45,39 @@ header ul li {
     background-image: url(../resources/images/img-mission-background.jpg);
     background-repeat: no-repeat;
 
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 200px 0px;
+}
+
+.mission h2,
+.mission h4 {
+    background-color: black;
+    padding: 10px;
 }
 /*Featured Tea*/
+.featured-tea {
+    width: 1000px;
+}
+
+.teas {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teas div {
+    align-items: center;
+}
+
+.teas img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.teas h4 {
+    margin-top: 10px;
+}
 
 /*Location*/
 
